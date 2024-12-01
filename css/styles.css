@@ -53,6 +53,10 @@ img {
     overflow: hidden;
 }
 
+.hide {
+    display: none;
+}
+
 .social-link {
     display: flex;
     justify-content: center;
@@ -494,7 +498,6 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    height: 40px;
 }
 
 .footer-social-wrapper {

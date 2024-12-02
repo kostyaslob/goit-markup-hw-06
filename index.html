@@ -20,7 +20,7 @@
   <!-- endregion -->
   <body>
     <!-- #region header -->
-    <header class="header">
+    <header class="header hide">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html"
@@ -62,7 +62,7 @@
           <h1 class="section-main-title">
             Effective Solutions for Your Business
           </h1>
-          <button class="section-main-button" type="button">
+          <button class="section-main-button js-open-modal" type="button">
             Order Service
           </button>
         </div>
@@ -126,7 +126,7 @@
       </section>
       <!-- #endregion -->
       <!-- #region section-team -->
-      <section class="team section">
+      <section class="team section hide">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
@@ -307,7 +307,7 @@
       </section>
       <!-- #endregion -->
       <!-- #region section-portfolio -->
-      <section class="portfolio section">
+      <section class="portfolio section hide">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -437,7 +437,7 @@
       <!-- #endregion -->
     </main>
     <!-- #region footer -->
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="container">
         <div class="footer-logo-wrapper">
           <a class="footer-logo" href="./index.html"
@@ -508,9 +508,9 @@
     </footer>
     <!-- endregion -->
     <!-- #region modal window -->
-    <div class="modal-overlay">
+    <div class="modal-overlay js-modal">
       <div class="modal">
-        <button class="modal-button-close" type="button">
+        <button class="modal-button-close js-close-modal" type="button">
           <svg class="modal-button-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -595,5 +595,8 @@
     </div>
 
     <!-- #endregion modal window -->
+
+    <script src="./js/index.js"></script>
+
   </body>
 </html>
